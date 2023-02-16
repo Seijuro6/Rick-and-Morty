@@ -1,0 +1,19 @@
+.container{
+    background-color: rgb(132, 208, 17);
+    color: rgb(10, 90, 10);
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    border: 0.25rem solid; 
+    border-radius: 2.5rem;
+        
+}
+.button{
+    background: rgb(126, 122, 122);
+    width: 50%;
+    text-align: center;
+    margin: 0px auto;
+    width: 50%;
+    
+}

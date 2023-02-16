@@ -1,0 +1,11 @@
+.SearchBar{
+    background-color: blue;
+    color: whitesmoke;
+    width: 6rem;
+    height: 1.5rem;
+    border-radius: 0.5rem;
+}
+.SearchBar:hover{
+    background-color: rgb(20, 20, 79);
+    transition: 1s;
+}

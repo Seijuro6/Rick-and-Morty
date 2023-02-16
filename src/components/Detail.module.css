@@ -1,0 +1,17 @@
+.detail{
+    background-image: url(https://media.vandalsports.com/i/640x360/5-2022/202251816546_1.jpg);
+    /* background-size: cover; */
+    height: 100vh;
+    width: 100vw;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+button{
+    background-color: purple;
+    color: aquamarine;
+    width: 6rem;
+    height: 1.5rem;
+}
+button:hover{
+    background: rgb(95, 206, 95);
+}
