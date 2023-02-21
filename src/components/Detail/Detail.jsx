@@ -26,10 +26,10 @@ const Detail = () => {
 
   return(
     <>
+      <div className={style.detail}>
         <Link to="/home">
             <button className={style.btnNav}>Volver</button>
         </Link>
-      <div className={style.detailBox}>
 
 
           <div className={style.detailImgBox}>

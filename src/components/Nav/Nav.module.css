@@ -1,6 +1,6 @@
 .Navbar{
-    /* background-color: rgb(123, 123, 231); */
-    padding: 1rem;
+    background-color: rgb(123, 123, 231);
+    /* padding: 1rem; */
 }
 button{
     background-color: purple;
