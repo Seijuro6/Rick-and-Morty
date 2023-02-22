@@ -45,7 +45,7 @@ function App () {
   };
 
   return (
-    <div className='App' style={{ padding: '25px' }}>
+    <div className='App'>
         <Nav onSearch={onSearch}/>
 
         <Routes>
