@@ -9,6 +9,18 @@
     flex-direction: column;
     display: center;
 }
+.detailImgBox{
+    background-color: rgb(132, 208, 17);
+    color: rgb(10, 90, 10);
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    border: 0.25rem solid; 
+    border-radius: 2.5rem;
+    display: flex;
+    
+}
 button{
     background-color: purple;
     color: aquamarine;

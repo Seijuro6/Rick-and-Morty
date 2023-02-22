@@ -1,10 +1,10 @@
-import '../Form/Form.module.css' 
+import style from '../Form/Form.module.css' 
 
 const Form = () => {
 
     return(
     <>
-    <div className='detail'>
+    <div className={style.Form}>
         <form action="">
             <label htmlFor="username">username</label>
             <input type="text" />

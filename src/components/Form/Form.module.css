@@ -1,8 +1,12 @@
 .Form{
-    background-image: url(https://eloutput.com/wp-content/uploads/2021/01/Rick-morty-9.jpg);
+    background-image: url(https://cdns-images.dzcdn.net/images/cover/38a217cfce1bfafa00bec80dcbc5d8cb/264x264.jpg);
     background-size: cover;
     height: 100vh;
     width: 100vw;
     background-size: 100% 100%;
     background-attachment: fixed;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+
 }
