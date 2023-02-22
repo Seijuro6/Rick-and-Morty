@@ -5,6 +5,8 @@ import style from './Nav.module.css'
 
 const Nav = ({onSearch}) => {
     return(
+    <div>
+        
         <div className={style.Navbar}>
             <Link to='/about'>
             <button>ABOUT</button> 
@@ -14,6 +16,7 @@ const Nav = ({onSearch}) => {
             </Link>
             <SearchBar onSearch={onSearch}/>
         </div>
+    |</div>
     )
 };
 
