@@ -1,11 +1,11 @@
 import './App.css'
-import Cards from './components/Cards/Cards'
-import Nav from './components/Nav/Nav'
+import Cards from './Cards/Cards'
+import Nav from './Nav/Nav'
 import {useState} from 'react'
 import { Routes, Route } from 'react-router-dom'
-import About from './components/About/About'
-import Detail from './components/Detail/Detail'
-import Form from './components/Form/Form'
+import About from './About/About'
+import Detail from './Detail/Detail'
+import Form from './Form/Form'
 
 
 
@@ -22,7 +22,7 @@ function App () {
   ])
 
  const onSearch = (character) => {
-    fetch(`http://localhost:3001/rickandmorty/${character}`)
+    fetch(`http://localhost:3001/rickandmorty/character/${character}`)
       .then((response) => response.json())
       .then((data) => {
           if (data.name) {

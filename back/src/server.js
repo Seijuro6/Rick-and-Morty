@@ -11,7 +11,7 @@ http.createServer((req, res) => {
         res
         .writeHead(200, {'Content-Type': 'application/json'}); // indicamos que la respuesta es un JSON
         res
-        .end(JSON.stringify(character)); // enviamos como respuesta toda la información del personaje
+        .end(JSON.stringify(character[0])); // enviamos como respuesta toda la información del personaje
       } else {
         res
         .writeHead(404, {'Content-Type': 'text/html'}); // si la URL no incluye el string, devolvemos un error 404
