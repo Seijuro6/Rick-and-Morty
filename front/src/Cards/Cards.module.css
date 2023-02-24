@@ -8,6 +8,10 @@
     display: flex;
     flex-direction: column;
     display: center;
+    justify-content:space-evenly;
+    flex-direction:row ;
+    flex-wrap: wrap;
+    margin-top: 12px;
 }
 .container{
     width: fit-content;
