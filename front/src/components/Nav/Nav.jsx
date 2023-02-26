@@ -9,6 +9,9 @@ const Nav = ({onSearch}) => {
     <div>
         
         <div className={style.Navbar}>
+            <Link to = '/'>
+            <button>SALIR</button>
+            </Link>
             <Link to='/about'>
             <button>ABOUT</button> 
             </Link>
