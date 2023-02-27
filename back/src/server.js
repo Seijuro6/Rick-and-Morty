@@ -6,7 +6,9 @@ const getCharDetail = require('./controllers/getCharDetail');
 
 http.createServer((req, res) => {
     res.setHeader('Access-Control-Allow-Origin', '*')
-    let id = req.url.split('/').at(-1);
+    // let id = req.url.split('/').at(-1);
+    let id = req.url.match(/\/([^\/]+)$/)[1];
+
 
     if (req.url.includes('onsearch')){     
       getChardById(res, id);
