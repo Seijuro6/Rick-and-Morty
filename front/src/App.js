@@ -25,7 +25,7 @@ function App () {
 
   useEffect(()=>{
      !access && navigate('/')
-  }, [access])
+  },[access])
 
 
  const onSearch = (character) => {
