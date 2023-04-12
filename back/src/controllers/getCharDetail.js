@@ -12,7 +12,7 @@ const getCharDetail = (res, id)=>{
             gender: data.gender,
             species: data.species,
             status: data.status,
-            origin: data.origin?.name
+            origin: data.origin.name
         }
         res
         .writeHead(200, {'Content-Type': 'application/json'})
